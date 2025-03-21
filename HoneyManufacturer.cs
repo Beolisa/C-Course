@@ -11,7 +11,7 @@ namespace ASM3
         public HoneyManufacturer() : base("Honey Manufacturer")
         {
         }
-        public const float NECTAR_COLLECTED_PER_SHIFT = 33.15f;
+        public const float NECTAR_PROCESSED_PER_SHIFT = 33.15f;
         public override float CostPerShift
         {
             get
@@ -22,7 +22,7 @@ namespace ASM3
 
         protected override void DoJob()
         {
-            //HoneyVault.StoreNectar(NECTAR_COLLECTED_PER_SHIFT);
+            HoneyVault.ConsumeHoney(NECTAR_PROCESSED_PER_SHIFT);
         }
     }
 }

@@ -57,7 +57,7 @@
     </ApplicationDefinition>
     <Compile Include="EggCare.cs" />
     <Compile Include="HoneyManufacturer.cs" />
-    <Compile Include="NectorCollector.cs" />
+    <Compile Include="NectarCollector.cs" />
     <Compile Include="Queen.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

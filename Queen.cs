@@ -17,38 +17,31 @@ namespace ASM3
 
         public const float EGGS_PER_SHIFT = 0.45f;
         public const float HONEY_PER_UNASSIGNED_WORKER = 0.5f;
+
         private Bee[] workers = new Bee[0];
         private float eggs = 0;
-        private int unassignedWorkers = 0;
-
-        public void AssignBee(string job)
-        {
-            if (unassignedWorkers > 0)
-            {
-                Console.WriteLine($"Queen Assigning bee to job: {job}");
-                unassignedWorkers--;
-                UpdateStatusReport();
-            }
-            else
-            {
-                Console.WriteLine("No unassigned workers available.");
-            }
-        }
+        private float unassignedWorkers = 3;
 
         public string StatusReport
         {
             get; private set;
-            //{
-            //    string report = "Vault report:\n";
-            //    report += $"Eggs: {eggs:F2}\n";
-            //    report += $"Unassigned workers: {unassignedWorkers:F2}\n";
-            //    report += $"Workers:\n";
-            //    foreach (Bee worker in workers)
-            //    {
-            //        report += $"  {worker.Job}: {worker.Status}\n";
-            //    }
-            //    return report;
-            //}
+        }
+
+        public void AssignBee(string job)
+        {
+            switch (job)
+            {
+                case "Nectar Collector":
+                    AddWorker(new NectarCollector());
+                    break;
+                case "Honey Manufacturer":
+                    AddWorker(new HoneyManufacturer());
+                    break;
+                case "Egg Care":
+                    AddWorker(new EggCare(this));
+                    break;
+            }
+            UpdateStatusReport();
         }
 
         public override float CostPerShift
@@ -60,17 +53,33 @@ namespace ASM3
         }
         protected override void DoJob()
         {
-            //HoneyVault.CollecNectar(EGGS_PER_SHIFT);
+            eggs += EGGS_PER_SHIFT;
+            foreach (Bee worker in workers)
+            {
+                worker.WorkTheNextShift();
+            }
+
+            HoneyVault.ConsumeHoney(HONEY_PER_UNASSIGNED_WORKER * unassignedWorkers);
+            UpdateStatusReport();
         }
 
         private void AddWorker(Bee worker)
         {
-            //workers.Add(worker);
+            if (unassignedWorkers >= 1)
+            {
+                unassignedWorkers--;
+                Array.Resize(ref workers, workers.Length + 1);
+                workers[workers.Length - 1] = worker;   // Add worker to the end of the array
+            }
         }
 
         public void CareForEggs(float eggsToConvert)
         {
-
+            if (eggs >= eggsToConvert)
+            {
+                eggs -= eggsToConvert;
+                unassignedWorkers += eggsToConvert;
+            }
         }
 
         private void UpdateStatusReport()

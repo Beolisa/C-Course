@@ -15,7 +15,10 @@ namespace ASM3
 
         public static void CollecNectar(float amount)
         {
-            nectar += amount;
+            if (amount > 0f)
+            {
+                nectar += amount;
+            }
         }
 
         public static void ConvertNectarToHoney(float amount)
@@ -25,11 +28,21 @@ namespace ASM3
                 nectar -= amount;
                 honey += amount * NECTAR_CONVERION_RATIO;
             }
+            else
+            {
+                throw new ArgumentException("Not enough nectar to convert");
+            }
         }
 
         public static bool ConsumeHoney(float amount)
         {
             //Every work shift honey will be consumed by the amount of bees you have
+            if (honey >= amount)
+            {
+                honey -= amount;
+                return true;
+            }
+
             return false;
         }
 

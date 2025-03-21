@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ASM3
 {
-    class NectorCollector : Bee
+    class NectarCollector : Bee
     {
-        public NectorCollector() : base("Nector Collector")
+        public NectarCollector() : base("Nectar Collector")
         {
         }
 
@@ -23,7 +23,6 @@ namespace ASM3
 
         protected override void DoJob()
         {
-            Console.WriteLine($"{Job}: Nector Collector...");
             HoneyVault.CollecNectar(NECTAR_COLLECTED_PER_SHIFT);
         }
     }

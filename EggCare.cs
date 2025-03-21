@@ -11,11 +11,12 @@ namespace ASM3
         private Queen queen;
         public EggCare(Queen queen) : base("Egg Care")
         {
+            this.queen = queen;
         }
 
         protected override void DoJob()
         {
-            //HoneyVault.StoreNectar(EGGS_PER_SHIFT);
+            queen.CareForEggs(CARE_PROGRESS_PER_SHIFT);
         }
 
         public const float CARE_PROGRESS_PER_SHIFT = 0.15f;

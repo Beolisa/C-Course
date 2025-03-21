@@ -25,8 +25,7 @@ namespace ASM3
         {
             InitializeComponent();
 
-            UpdateStatusDisplay();
-            nectarCollector.Text = "Nectar Collector";
+            queenReport.Text = queen.StatusReport;
         }
 
         private void nectarCollectorComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -36,17 +35,14 @@ namespace ASM3
 
         private void WorkNextShift_Clicked(object sender, RoutedEventArgs e)
         {
-
+            queen.WorkTheNextShift();
+            queenReport.Text = queen.StatusReport;
         }
 
         private void AssignJob_Clicked(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void UpdateStatusDisplay()
-        {
-            queenReport.Text = queen.StatusReport; // Display the status report in a TextBlock
+            queen.AssignBee(jobSelector.Text);
+            queenReport.Text = queen.StatusReport;
         }
     }
 }

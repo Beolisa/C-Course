@@ -26,7 +26,7 @@
         <!-- Row 2 content -->
         <ComboBox Grid.Row="1" 
                   Grid.Column="0" 
-                  Name="nectarCollector" 
+                  Name="jobSelector" 
                   Margin="10,10,10,0" Width="auto" 
                   Height="40" 
                   Text="Bee Types"
@@ -56,7 +56,6 @@
                     </Border>
                 </ControlTemplate>
             </Button.Template>
-
         </Button>
 
         <TextBox Grid.Row="1" Grid.Column="1" 

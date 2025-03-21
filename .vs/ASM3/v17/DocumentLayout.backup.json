@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\bee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|solutionrelative:bee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|solutionrelative:queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\honeyvault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|solutionrelative:honeyvault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|c:\\users\\pc\\desktop\\unitycourse\\c#\\assignments\\c-course\\nectarcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|solutionrelative:nectarcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\honeymanufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|solutionrelative:honeymanufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\eggcare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|solutionrelative:eggcare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{44417409-193C-40FA-8BBA-D6ADF7706060}|ASM3.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAMwCYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T10:56:23.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EggCare.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\EggCare.cs",
+              "RelativeDocumentMoniker": "EggCare.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\EggCare.cs",
+              "RelativeToolTip": "EggCare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T13:12:28.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Queen.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\Queen.cs",
+              "RelativeDocumentMoniker": "Queen.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\Queen.cs",
+              "RelativeToolTip": "Queen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:57:09.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HoneyManufacturer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\HoneyManufacturer.cs",
+              "RelativeDocumentMoniker": "HoneyManufacturer.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\HoneyManufacturer.cs",
+              "RelativeToolTip": "HoneyManufacturer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T11:04:15.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NectarCollector.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\NectarCollector.cs",
+              "RelativeDocumentMoniker": "NectarCollector.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\NectarCollector.cs",
+              "RelativeToolTip": "NectarCollector.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T11:04:17.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bee.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\Bee.cs",
+              "RelativeDocumentMoniker": "Bee.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\Bee.cs",
+              "RelativeToolTip": "Bee.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T11:03:45.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HoneyVault.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\HoneyVault.cs",
+              "RelativeDocumentMoniker": "HoneyVault.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\HoneyVault.cs",
+              "RelativeToolTip": "HoneyVault.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIA2wCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T11:02:40.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\UnityCourse\\C#\\Assignments\\C-Course\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T10:55:33.029Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
